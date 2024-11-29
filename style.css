@@ -80,7 +80,6 @@ body.hide-header .header{
     justify-content: center;
     border-radius: 100px;
     border: none;
-    filter: drop-shadow(0 0 10px);
     background: var(--secondary-color);
     color: var(--text-color);
     cursor: pointer;
@@ -517,22 +516,6 @@ blockquote{
     background: transparent;
     transition: all 0.3s ease;
     background: var(--button-hover-color);
-}
-    .navbar__button{
-        padding: 0.5rem;
-        position:fixed;
-        right: 3%;
-        filter: drop-shadow(0 0 10px);
-        font-size: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 100px;
-        border: none;
-        background: var(--secondary-color);
-        color: var(--text-color);
-        cursor: pointer;
-        transition: background 0.3s ease;
     }
-
+  
 }
